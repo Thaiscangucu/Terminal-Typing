@@ -17,34 +17,34 @@ func beginGame(_ genero: Int) {
             
             if genero == 1 {
                 if dificuldade == 1{
-                    playMusic("/Users/tatacangucu/Downloads/Sweet Child O Mine - short version.mp3")
+                    playMusic("/Path/to/rock/song.mp3")
                 }
                 else if dificuldade == 2{
-                    playMusic("/Users/tatacangucu/Downloads/Sweet Child O Mine - short version.mp3")
+                    playMusic("Path/to/rock/song.mp3")
                 }
                 else if dificuldade == 3{
-                    playMusic("/Users/tatacangucu/Downloads/Sweet Child O Mine - 2x speed.mp3")
+                    playMusic("Path/to/rock/song/faster/version.mp3")
                 }
             } else if genero == 2 {
                 if dificuldade == 1{
-                    playMusic("/Users/tatacangucu/Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/Shake It Off - short version.mp3")
+                    playMusic("/Path/to/pop/song.mp3")
                 }
                 else if dificuldade == 2{
-                    playMusic("/Users/tatacangucu/Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/Shake It Off - short version.mp3")
+                    playMusic("/Path/to/pop/song.mp3")
                 }
                 else if dificuldade == 3{
-                    playMusic("/Users/tatacangucu/Downloads/Shake It Off - 2x speed.mp3")
+                    playMusic("/Path/to/pop/song/faster/version.mp3")
                 }
                 
             } else if genero == 3{
                 if dificuldade == 1{
-                    playMusic("/Users/tatacangucu/Downloads/Not Like Us - short version.mp3")
+                    playMusic("/Path/to/hiphop/song.mp3")
                 }
                 else if dificuldade == 2{
-                    playMusic("/Users/tatacangucu/Downloads/Not Like Us - short version.mp3")
+                    playMusic("/Path/to/hiphop/song.mp3")
                 }
                 else if dificuldade == 3{
-                    playMusic("/Users/tatacangucu/Downloads/Not Like Us - 2x speed.mp3")
+                    playMusic("/Path/to/hiphop/song/faster/version.mp3")
                 }
             }
             setNonBlockingMode()
